@@ -1,0 +1,141 @@
+.outer-container{
+    display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+.image{
+    width:210px;
+    height:210px;
+    object-fit: cover;
+    border-radius:5px 5px 0px 0px;
+}
+.mode{
+   margin-right:30px;
+   padding:2%;
+   display: flex;
+   align-items:center;
+}
+.padding{
+    padding:2px 10px;
+}
+.each-country{
+    margin:5px;
+    border-radius:5px;
+    width:210px;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  0 12.5px 10px rgba(0, 0, 0, 0.035),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
+.country-name{
+    width:200px;
+}
+.filter-component,.header-section{
+    display:flex;
+    justify-content:space-between;
+}
+.filter-component{
+    margin: 20px 0px;
+}
+.header-section{
+    box-shadow: 1px 1px 4px #888888;
+}
+.new-country-details,.flex{
+ display: flex;   
+}
+.country-details-img{
+    width:350px;
+    height:250px;
+    margin:auto 20px;
+}
+.left-side-country-details,.title,.borders{
+    margin:0px 20px;
+}
+.right-side-country-details{
+    margin-top:65px;
+}
+.go-back,.border-buttons{
+    background-color: white;
+    color:black;
+    border-radius:5px;
+    padding:10px;
+    box-shadow: 1px 1px 4px #888888;
+    border:none;
+    margin-left: 20px;
+    margin-top:15px;
+}
+.search-country-container{
+    display:flex;
+    align-items:center;
+    width:250px;
+    height:60px;
+    box-shadow: 1px 1px 4px #888888;
+    border-radius:5px;
+    margin-left:20px;
+}
+.search-icon{
+    margin:0px 10px;
+    font-size:200px;
+}
+.search-country{
+    border:none;
+    height:50px;
+    width:200px;
+    margin:0px;
+    font-size:18px;
+}
+.select-region{
+    height:30px;
+    margin-right:30px;
+    background-color: white;
+}
+.header-heading{
+    margin-left: 20px;
+}
+.Dark{
+    background-color:#2b3945;
+    color:white;
+}
+.Light{
+    color:black;
+    background-color: #fff;
+}
+.country-details-container{
+    height:100vh;
+}
+.loader {
+  margin:auto;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.no-data{
+    text-align:center;
+    height: 100vh;
+}
+.borders{
+    
+}
+
+
+

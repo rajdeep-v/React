@@ -4,9 +4,13 @@ import SearchCountry from './SearchCountry.js';
 class CountriesFilterBar extends React.Component{
     render(){
         return(
-            <div className = "filter-component">
-            <SearchCountry filterCountriesByName = {this.props.filterCountriesByName}/>
-            <SelectionRegion filterCountriesByRegion={this.props.filterCountriesByRegion}/>
+            <div className="filter-component">
+                <SearchCountry
+                    filterCountriesByName={this.props.filterCountriesByName}
+                    selectedTheme={this.props.selectedTheme}/>
+                <SelectionRegion
+                    filterCountriesByRegion={this.props.filterCountriesByRegion}
+                    selectedTheme={this.props.selectedTheme}/>
             </div>
             )
     }

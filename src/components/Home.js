@@ -10,7 +10,7 @@ export default function Home(){
         <Link to="/Home.js">Home</Link>
         </li>
         <li>
-        <Link to="/Country/Dashboardapp.js">CountryList</Link>
+        <Link to="/country-dashboard-app">CountryList</Link>
         </li>
         </ul>
         </nav>
