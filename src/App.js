@@ -33,6 +33,8 @@ import {
 import CountryDashboardApp from './components/Country/CountryDashboardApp.js';
 import CountryDetails from './components/Country/CountryDetails.js'
 import Home from './components/Home.js'
+import CounterPage from "./components/CounterPage/index.js"
+
 
 class App extends React.Component {
   state={
@@ -47,6 +49,9 @@ class App extends React.Component {
   return (
     <Router>
         <Switch>
+          <Route exact path="/counter-page">
+            <CounterPage />
+          </Route>
           <Route exact path="/country-dashboard-app">
             <CountryDashboardApp onChangeTheme={this.onChangeTheme} selectedTheme={this.state.selectedTheme}/>
           </Route>
